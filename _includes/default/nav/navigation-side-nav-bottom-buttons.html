@@ -9,7 +9,7 @@
 {%- endif -%}
 
 {% if site.data.conf.main.cookie_consent.enable and site.data.conf.main.cookie_consent.side_nav_setting_button.enable -%}
-  {%- assign cookie_settings_button_enabled = true -%}
+  {%- assign cookie_settings_button_enabled = false -%}
 {%- endif -%}
 
 {% if color_scheme_switch_enabled == true or cookie_settings_button_enabled == true %}
