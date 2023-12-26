@@ -29,7 +29,7 @@ language_switch_lang_list: [en, ja, pt, fr]
 
 # if the opened page is not in the user's language list,
 # suggest language(s) matching with the one(s) in browser language list and user language list.
-language_translation_offer_box: true
+language_translation_offer_box: false
 
 # Disable 3rd party translation suggestion for pages with translation.
 language_translation_offer_disable_ext_translation: true
@@ -193,8 +193,8 @@ side_and_top_nav_buttons:
     icon: "fa fa-archive"
   - projects:
     icon: "fa fa-cog"
-  - links:
-    icon: "fa fa-link"
+#  - links:
+#    icon: "fa fa-link"
   - about:
     icon: "fa fa-user-o"
 
