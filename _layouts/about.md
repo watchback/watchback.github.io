@@ -18,6 +18,10 @@ layout: default
       <div class="meta-container">
         {%- assign about_title = site.data.owner[lng].about.sub_title | replace: site.data.conf.main.sample_replace, site.data.lang[lng].constants.sample -%}
         {%- if site.data.owner[lng].about.sub_title %}
+          <p class="sub-title">
+            {%- if site.data.conf.others.about.sub_title_icon %}<i class="{{ 'fa-fw ' }}{{ site.data.conf.others.about.sub_title_icon }}" aria-hidden="true"></i>{% endif -%}
+            &nbsp;{{ about_title }}
+          </p>
         {% endif -%}
         {%- assign tmp_obj =  site.data.owner[lng].contacts | where_exp: "item", "item.email != nil" | first -%}
         {%- assign email = tmp_obj['email'] -%}
