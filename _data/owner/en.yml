@@ -5,7 +5,7 @@
 brand: "HANJIN KIM"
 
 # text below the brand name
-brand_sub_text: "$site_sample"
+brand_sub_text: "반갑습니다."
 
 # used for seo meta post author (if it's not defined in post)
 name: "HANJIN KIM"
@@ -19,7 +19,7 @@ home:
 
 # about page sub title
 about:
-  sub_title: "$site_sample"
+  sub_title: "54hanjin@gmail.com"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
