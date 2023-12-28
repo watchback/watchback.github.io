@@ -692,3 +692,19 @@ Tool: **David DB**
 
 #### 결과
 **Gene function**  
+
+<script src="https://giscus.app/client.js"
+        data-repo="watchback/watchback.github.io"
+        data-repo-id="R_kgDOK8k5WQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOK8k5Wc4Cb7Lj"
+        data-mapping="og:title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="ko"
+        crossorigin="anonymous"
+        async>
+</script>
