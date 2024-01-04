@@ -175,7 +175,7 @@ page_data:
         ```
 
     # Dendropanax Genome annotation
-    - type: id_omics, id_bioinformatics
+    - type: id_omics
       project_name: "Dendropanax morbiferus Genome annotation"
       project_excerpt: "Omics"
       img: ":dendro.jpg"
@@ -187,7 +187,7 @@ page_data:
         ![Image](:dendro.jpg)
 
     # Dendropanax RNA-seq
-    - type: id_omics, id_bioinformatics
+    - type: id_omics
       project_name: "Dendropanax Morbiferus RNA-seq analysis"
       project_excerpt: "Omics"
       img: ":dendro.jpg"
