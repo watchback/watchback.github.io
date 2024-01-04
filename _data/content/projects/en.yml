@@ -12,15 +12,18 @@ page_data:
     back_color: "lightblue"
 
   category:
-    - title: "Example"
-      type: id_example
+    - title: "Omics"
+      type: id_omics
       color: "gray"
-    - title: "Picture"
-      type: id_picture
+    - title: "Bioinformatics"
+      type: id_bioinformatics
       color: "#62b462"
-    - title: "Quote"
-      type: id_quote
+    - title: "Deep Learning"
+      type: id_dl
       color: "#2FD0ED"
+    - title: "Machine Learning"
+      type: id_ml
+      color: "orange"
 
   list:
     # example
@@ -171,40 +174,27 @@ page_data:
           print(i)
         ```
 
-    # picture
-    - type: id_picture
-      project_name: "Example Project"
-      project_excerpt: "Picture"
-      img: ":project2_thumb.jpg"
-      img_title: "img title2"
-      date: "2021-04-23"
+    # Dendropanax Genome annotation
+    - type: id_omics, id_bioinformatics
+      project_name: "Dendropanax morbiferus Genome annotation"
+      project_excerpt: "Omics"
+      img: ":dendro.jpg"
+      img_title: "Dendropanax"
+      date: "2023-04-01"
       post: |
-        # Title
-        This is project content.
+        # Dendropanax Morbiferus RNA-seq analysis
 
-        ![Image](:project2_thumb.jpg)
+        ![Image](:dendro.jpg)
 
-    # quote
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "William Shakespeare"
-      #img: ":project1_thumb.jpg"
-      #img_title: "img title3"
-      date: "2021-05-27"
+    # Dendropanax RNA-seq
+    - type: id_omics, id_bioinformatics
+      project_name: "Dendropanax Morbiferus RNA-seq analysis"
+      project_excerpt: "Omics"
+      img: ":dendro.jpg"
+      img_title: "Dendropanax"
+      date: "2023-03-01"
       post: |
-        Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
+        # Dendropanax Morbiferus RNA-seq analysis
+
 
 
