@@ -27,7 +27,7 @@ page_data:
 
   list:
     # example
-    - type: id_example
+    - type: id_bioinformatics
       project_name: "Example Project"
       project_excerpt: "Examples"
       img: ":project1_thumb.jpg"
