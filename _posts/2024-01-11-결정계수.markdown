@@ -1,0 +1,86 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_Statistics
+title: "[Statistics] 결정계수"
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: HANJIN KIM
+# multiple category is not supported
+category: HANJIN KIM
+# multiple tag entries are possible
+tags: [Statistics, Machine Learning]
+# thumbnail image for post
+img: ":Statistics.png"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2024-01-11 15:54:30 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-01-01 10:04:30 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+<!-- outline-start -->
+
+# **결정계수**
+#### 통계학에서 결정계수는 추정한 선형 모형(회귀 모델)에서 독립변수가 종속변수에 대해 얼마나 설명하는지 정도를 재는 척도이다. 독립변수의 수가 증가하면 결정계수도 증가함    
+
+#### 상관관계를 파악하는 방법이기 때문에 독립변수와 종속변수 사이의 관계가 반드시 인과성이 있는것은 아님
+
+#### 결정계수의 통상적인 기호는 표본에서 R^2이 그리고 모집단에서는 P^2이 사용됨  
+
+***
+
+### 공식
+
+![SST](:SST.png){:data-align="center"}  
+
+![SSR](:SSR.png){:data-align="center"}  
+
+![R^2](:r2.png){:data-align="center"}  
+
+
+***
+
+## 장점  
+- 선형관계인 독립변수와 종속변수간의 상관관계 파악가능  
+- 간단한 방법
+
+## 단점  
+- 종속변수를 잘 설명하지 못하는 독립변수가 추가되어도 결정계수가 상승한다는 문제가 있음  
+- 독립변수와 종속변수간의 비선형적인 관계는 파악 불가능  
+  
+
+<script src="https://giscus.app/client.js"
+        data-repo="watchback/watchback.github.io"
+        data-repo-id="R_kgDOK8k5WQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOK8k5Wc4Cb7Lj"
+        data-mapping="og:title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="ko"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_RNA-seq
-title: "De Novo RNA-seq Analysis pipeline"
+title: "[Bioinformatics] De Novo RNA-seq Analysis pipeline"
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml

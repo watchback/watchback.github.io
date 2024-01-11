@@ -27,12 +27,12 @@ page_data:
 
   list:
     # example
-    - type: id_bioinformatics
-      project_name: "Example Project"
-      project_excerpt: "Examples"
+    - type: id_dl
+      project_name: "DNA RNA binding protein prediction and interpretation"
+      project_excerpt: "DRBP"
       img: ":project1_thumb.jpg"
       img_title: "img title1"
-      date: "2021-03-13"
+      date: "2023-06-01"
       post: |
         # Examples
 
